@@ -1,3 +1,4 @@
 puts "please enter your name"
-name = gets.chomp
-puts"Hello, #{name}! I'm Andrius"
+your_name = gets.chomp
+my_name = "just a String"
+puts("Hello, #{your_name}! I'm " + my_name)
