@@ -9,7 +9,7 @@ puts "this is a number: " << num.to_s #concat num and string, must convert to St
 puts "the lower whole number of 20.9 is " << num.floor.to_s
 puts "the higher whole number of 20.9 is " << num.ceil.to_s
 #there is Math. class w log max etc.
-
+puts 9.even?
 
 puts "Enter two numbers: "
 userNum1=gets.chomp().to_i

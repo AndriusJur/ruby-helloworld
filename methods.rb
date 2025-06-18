@@ -1,3 +1,5 @@
+# NB!  !methods is not safe, modifies original variable
+
 def sayHi(name="default_name")
   puts "Hi, "<< name << "!"
 end
