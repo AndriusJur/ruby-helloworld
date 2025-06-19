@@ -1,7 +1,7 @@
 THIS_IS_A_CONSTANT="wow, it really is a constant"
 puts THIS_IS_A_CONSTANT.reverse
 $THIS_IS_A_GLOBAL_VAR='well, at least you cant modify global variables'
-puts $THIS_IS_A_GLOBAL_VAR.reverse
+puts $THIS_IS_A_GLOBAL_VAR.reverse #?
 
 my_name = "foobar"
 puts "please enter your name"
@@ -20,7 +20,7 @@ puts my_name.split("")
 puts my_name
 
 
-puts "Hello, #{your_name}! I'm "  << my_name  #shovel operator appends String, efficient - doesnt create new string object
+puts "Hello, #{your_name}! I'm "  + my_name  #shovel operator appends String, efficient - doesnt create new string object
 #useful in loops
 # must use parenthesis to concatenate if using "+", original String unchanged
 #

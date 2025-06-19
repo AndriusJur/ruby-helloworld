@@ -22,19 +22,6 @@ end
 puts max(10,201,5)
 
 #case expressions - similiar to switch statements
-def get_day_name(day)
-  day_name=""
-  case day
-  when "mon"  #when day == mon -> monday
-    day_name= "monday"
-  when "tues"
-    day_name= "tuesday"
-  when "wed"
-    day_name= "wednesday"
-  end
-  return day_name
-end
-puts get_day_name("mon")
 
 def abbrev(abbrev)
   full_word=""
@@ -55,4 +42,18 @@ puts 5.eql?(5.0) #eql checks actual value
 
 a="hello"
 b="hello"
-puts a.equal?(b)
+puts a.equal?(b) #.equal? checks if its the same value
+
+#unless statements
+height=198
+unless height>120  #reverse if statement
+  puts "cant ride the ride"
+else
+  puts "ride on"
+end
+
+puts height>180?"You must play basketball":"hello, little guy"
+
+puts 5<=>height #spaceship operator. has 3 positions - 0 if eql, -1 if right is greater, +1 if left greater
+#used in sorting functions
+
