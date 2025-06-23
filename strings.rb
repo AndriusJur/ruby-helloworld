@@ -8,7 +8,7 @@ puts "please enter your name"
 your_name = gets.chomp().downcase().strip() #gets gets input;
 #chomp removes newLine due to Enter
 # input always gets converted to string
-your_name ||= your_name
+
 puts your_name.include?"x" #contains in Java
 puts your_name.length()
 puts your_name[0,3]
@@ -22,8 +22,7 @@ puts my_name
 
 puts "Hello, #{your_name}! I'm "  + my_name  #shovel operator appends String, efficient - doesnt create new string object
 #useful in loops
-# must use parenthesis to concatenate if using "+", original String unchanged
-#
+
 
 symbol= :this_is_a_symbol
 puts symbol.is_a?(Symbol)

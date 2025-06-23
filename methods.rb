@@ -15,7 +15,7 @@ say_hi
 puts"Bottom text"
 
 def square(num)
-  return  "#{num * num} -> that is always correct" # # is part of string interpolation, must use ""
+  return  "#{num * num} -> that is always correct" ## is part of string interpolation, must use ""
   puts "and this will never be excecuted"
 end
 puts square(5)
@@ -27,7 +27,7 @@ def isogram?(string)
   string_array = string.downcase.split("")
   puts string_array.to_s
   unique_length = string_array.uniq.length
-  original_length == unique_length
+  return original_length == unique_length
 end
 
 puts isogram?("abcde")
